@@ -69,7 +69,7 @@ struct CropView: View {
           let result = cropImage()
           await MainActor.run {
             onComplete(result)
-            dismiss()
+            // dismiss()
             isCropping = false
           }
         }
@@ -123,7 +123,7 @@ struct CropView: View {
           let result = cropImage()
           await MainActor.run {
             onComplete(result)
-            dismiss()
+            // dismiss()
             isCropping = false
           }
         }
